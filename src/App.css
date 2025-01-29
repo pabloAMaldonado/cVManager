@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: 'mainFont';
+  src: url('./assets/JetBrainsMono-ExtraBold.woff2') format('.woff2');
+}
+
+body {
+  font-family: 'mainFont', sans-serif;
+}
+

@@ -1,0 +1,162 @@
+
+.pdfViewer {
+    padding: 25px;
+    width: 600px;
+    height: 855px;
+    color: #000000;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.personalData {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personalData>h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #000000;
+    margin: 0;
+}
+
+.personalData p {
+    font-size: 1rem;
+    color: #1a1818;
+}
+
+.personalData span p {
+    font-size: 0.9rem;
+    color: #1a1818;
+    margin: 5px 0;
+}
+
+.resume {
+    margin-top: 20px;
+    border-left: 4px solid #000000;
+    padding: 10px;
+}
+
+.workCv, .eduCv, .skillCv {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+.workCv p, .eduCv p, .skillCv p {
+    margin: 5px 0;
+}
+
+img {
+    width: 25px;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactInfo>span {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contactInfoExtra>span {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.workCv {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.workCv>span {
+    display: flex;
+    flex-direction: column;    
+}
+
+.workHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.workCv>span>span:first-child>span {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.workCv>span>span:first-child>p {
+    display: flex;
+}
+
+.workDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+
+.eduCv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.eduCv>span {
+    display: flex;
+    flex-direction: column;    
+}
+
+.eduCv>span>span:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.eduCv>span>span:first-child>span {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.eduCv>span>span:first-child>p {
+    display: flex;
+}
+
+.eduCv>span>span:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;  
+}
+
+.skillCv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 85px;
+}
+
+.skillCv>span {
+    display: flex;
+    flex-direction:  row;
+    gap: 5px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 500px;
+    margin: 15px auto;
+    background-color: rgb(58, 56, 56);
+}

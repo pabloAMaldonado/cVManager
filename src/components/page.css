@@ -1,0 +1,132 @@
+  
+.form-page {
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.select-forms {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe4c4;
+    padding: auto;
+    padding: 0 40px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.toForms {
+    display: flex;
+    flex-direction: row
+}
+
+.toForms>button {
+    margin-left: auto;
+}
+
+.entriesForm>div>button {
+    margin-left: auto;
+}
+
+.divForms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.arrayFromForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 ;
+    gap: 10px;
+}
+
+.arrayFromForm>p {
+    margin-left: auto;
+}
+
+.forms {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.forms>form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+form>div>label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form>div>label>input {
+    width: 270px;
+}
+
+form>div>label>textarea {
+    width: 350px;
+    height: 160px;
+    resize: vertical;
+}
+form>button {
+    width: 80px;
+    align-self: center;
+}
+
+.formResume>label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formResume>label>textarea {
+    width: 350px;
+    height: 160px;
+    resize: vertical;
+}
+
+.formResume>button {
+    width: 80px;
+    align-self: center;
+}
+
+.cvSelector {
+    display: flex;
+    gap: 25px;
+}
+
+.select-forms>button {
+    display: flex;
+    width: 100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.entriesForm {
+    overflow-y: scroll;
+    height: 175px;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:  #ffd29a;
+    border-radius: 100px;
+    margin-block: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:  #be9c72;
+    border-radius: 10px;
+}
