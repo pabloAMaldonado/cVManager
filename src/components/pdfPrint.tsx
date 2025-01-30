@@ -1,5 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
 
-import React from 'react';
 import JsPDF from 'jspdf';
 import download from '../assets/MaterialSymbolsDownload.svg'
 

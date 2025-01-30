@@ -1,5 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
 
-import React from 'react'
 import { Provider } from 'react-redux'
 import { createRoot } from 'react-dom/client'
 import './index.css'

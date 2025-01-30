@@ -1,9 +1,8 @@
+/* eslint-disable react/react-in-jsx-scope */
 
-import React from 'react'
 import './App.css'
 
 import MainPage from './components/page'
-import PrintPdf from './components/print'
 
 function App() {
 

@@ -33,7 +33,7 @@ const PrintPdf = ({ setPrint }: PrintPdfProps) => {
         education: [],
         skills: []
     })
-    const [selectStyler, setSelectStyler] = useState<string>('Style 1')
+    const selectStyler = 'Style 1'
 
     const filterHandler = (e: React.ChangeEvent<HTMLInputElement>, section: string, index: number, element: string) => {
         switch (section) {
@@ -172,7 +172,7 @@ const PrintPdf = ({ setPrint }: PrintPdfProps) => {
                     <select
                         id="style-select"
                         value={selectStyler}
-                        onChange={(e) => styleHandler(e.target.value)}
+                        // onChange={(e) => styleHandler(e.target.value)}
                         style={{ cursor: "pointer" }}
                     >
                          <option value="" disabled>

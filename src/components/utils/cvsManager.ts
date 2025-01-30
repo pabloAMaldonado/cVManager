@@ -1,5 +1,5 @@
 
-import notification from "./notiManager"
+import { notificationSuccess } from "./notiManager"
 
 export const initInfo = <T extends object>(): Array<T> => {
     const cvs = localStorage.getItem('cvs');
@@ -13,5 +13,5 @@ export const initInfo = <T extends object>(): Array<T> => {
 
 export const saveInfo = <T extends object>(array: Array<T>) => {
     localStorage.setItem('cvs', JSON.stringify(array))
-    notification('Information saved succefully')
+    notificationSuccess('Information saved succefully')
 }

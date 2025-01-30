@@ -9,7 +9,7 @@ const indexSlice = createSlice({
     name: 'selectedIndex',
     initialState,
     reducers: {
-        setSelectedIndex: (state, action: PayloadAction<number>) => {
+        setSelectedIndex: (_, action: PayloadAction<number>) => {
             localStorage.setItem('index', JSON.stringify(action.payload))
             return action.payload
         },

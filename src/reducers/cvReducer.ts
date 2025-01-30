@@ -146,12 +146,12 @@ const cvSlice = createSlice({
       }
     },
     updateCv: (
-      state,
+      _,
       action: PayloadAction<{ index: number, cvs: CVState[] }>
     ) => {
       const {  index, cvs } = action.payload;
 
-      return state = cvs[index]
+      return cvs[index]
     }
   },
 });
