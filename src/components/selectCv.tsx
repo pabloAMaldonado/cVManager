@@ -54,7 +54,7 @@ const CvSelector = () => {
                     </option>
                     ))
                 ) : (
-                    <option value="" disabled>
+                    <option value="Press new to start" >
                     Press new to start
                     </option>
                 )}
