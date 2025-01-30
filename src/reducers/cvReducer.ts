@@ -69,7 +69,7 @@ const jsonIndex = localStorage.getItem('index');
 const cvs = jsonCvs ? JSON.parse(jsonCvs) : [];
 const index = jsonIndex ? JSON.parse(jsonIndex) : 0;
 
-const initialState = cvs[index] !== cv ? cvs[index] : cv;
+const initialState = cvs[index] ? cvs[index] : cv;
 
 const cvSlice = createSlice({
   name: "cv",
