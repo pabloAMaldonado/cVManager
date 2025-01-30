@@ -47,11 +47,17 @@ const CvSelector = () => {
                 onChange={handleChange}
                 value={settedIndex}
             >
-                {cvs.map((_, index) => (
+                {cvs.length > 0 ? (
+                    cvs.map((_, index) => (
                     <option key={index} value={index}>
-                        {`Template ${ index + 1 }`}
+                        {`Template ${index + 1}`}
                     </option>
-                ))}
+                    ))
+                ) : (
+                    <option value="" disabled>
+                    Press new to start
+                    </option>
+                )}
             </select>
             <button onClick={handleNew}>New</button>
             <button onClick={() => handleDelete(settedIndex)}>Delete</button>

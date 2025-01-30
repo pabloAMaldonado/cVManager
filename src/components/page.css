@@ -44,6 +44,7 @@
 
 .arrayFromForm>p {
     margin-left: auto;
+    max-width: 300px;
 }
 
 .forms {
@@ -112,7 +113,7 @@ form>button {
 
 .entriesForm {
     overflow-y: scroll;
-    height: 175px;
+    max-height: 175px;
     padding: 10px;
 }
 
